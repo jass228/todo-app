@@ -7,12 +7,14 @@ const NavBar = () => {
       <Link href="/">
         <h1 className="ml-2 text-2xl font-bold">ToDo App</h1>
       </Link>
+      {/* 
       <Link
         href=""
         className="border-solid border-2 border-black px-6 py-2 rounded-lg text-white bg-black"
       >
         Log Out
       </Link>
+      */}
     </nav>
   );
 };
