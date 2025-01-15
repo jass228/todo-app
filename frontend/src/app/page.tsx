@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
-import MainSection from "@/components/ToDo/MainSection";
+import TodoList from "@/components/ToDo/TodoList";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       </div>
 
       <div className="max-w-7xl mx-auto min-h-screen flex flex-col mt-20">
-        <MainSection />
+        <TodoList />
         <Footer />
       </div>
     </div>
