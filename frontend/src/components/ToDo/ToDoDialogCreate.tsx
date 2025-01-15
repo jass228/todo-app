@@ -13,9 +13,10 @@ import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import ToastPopup from "../../types/toast-popup";
 import { API_ENDPOINTS } from "@/config/api";
+import { APIResponse } from "@/types/api";
 
 interface ToDoDialogCreateProps {
-  initialTodos: (task: any) => void;
+  initialTodos: (task: APIResponse) => void;
 }
 
 const ToDoDialogCreate = ({ initialTodos }: ToDoDialogCreateProps) => {

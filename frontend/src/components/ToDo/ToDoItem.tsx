@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import { ChevronDown, ChevronUp, Pencil, Trash } from "lucide-react";
 import { APIResponse } from "@/types/api";
 import { Card } from "../ui/card";
-import ToDoDialogUpdate from "./TodoDialogUpdate";
+import ToDoDialogUpdate from "./ToDoDialogUpdate";
 
 interface ToDoItemProps {
   todo: APIResponse;

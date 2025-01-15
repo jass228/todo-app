@@ -1,7 +1,7 @@
 import { APIResponse } from "@/types/api";
 import { NextResponse } from "next/server";
 
-let todos: APIResponse[] = [];
+const todos: APIResponse[] = [];
 let nextId = 1;
 
 export async function GET() {
