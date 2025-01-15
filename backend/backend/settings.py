@@ -93,6 +93,13 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:3001",
+    "https://todo-app-amber-nine.vercel.app",
+]
+
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'todo-app-hlja.onrender.com',  # Add your Render domain here
 ]
 
 
