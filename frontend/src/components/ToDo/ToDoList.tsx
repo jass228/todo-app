@@ -9,7 +9,7 @@ import { Card } from "../ui/card";
 import ToastPopup from "@/types/toast-popup";
 import { API_ENDPOINTS } from "@/config/api";
 
-const TodoList = () => {
+const ToDoList = () => {
   const [todos, setTodos] = useState<APIResponse[]>([]);
   const [filter, setFilter] = useState<FilterType>("all");
   const [isLoading, setIsLoading] = useState(true);
@@ -141,4 +141,4 @@ const TodoList = () => {
   );
 };
 
-export default TodoList;
+export default ToDoList;

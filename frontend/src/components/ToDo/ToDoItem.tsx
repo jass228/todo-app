@@ -4,8 +4,8 @@ import { Checkbox } from "../ui/checkbox";
 import { Button } from "../ui/button";
 import { ChevronDown, ChevronUp, Pencil, Trash } from "lucide-react";
 import { APIResponse } from "@/types/api";
-import ToDoDialogUpdate from "./TodoDialogUpdate";
 import { Card } from "../ui/card";
+import ToDoDialogUpdate from "./TodoDialogUpdate";
 
 interface ToDoItemProps {
   todo: APIResponse;
